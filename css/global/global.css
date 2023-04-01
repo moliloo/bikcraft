@@ -9,6 +9,9 @@ ul {
 }
 
 h1,
+h2,
+h3,
+h4,
 ul,
 p {
 	margin: 0px;
@@ -22,4 +25,8 @@ a {
 img {
 	max-width: 100%;
 	display: block;
+}
+
+[src$='.jpg'] {
+	border-radius: 5px;
 }
