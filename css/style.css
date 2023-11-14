@@ -12,4 +12,7 @@
 @import './home/bicicletas-lista.css';
 @import './home/parceiros.css';
 @import './home/tecnologia.css';
-@import './home/depoimento.css'
+@import './home/depoimento.css';
+
+/* Seguros */
+@import './seguros/seguros.css';
