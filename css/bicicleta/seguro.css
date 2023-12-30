@@ -1,5 +1,5 @@
 .seguro-bg {
-   background-color: var(--c11);
+   background: var(--c11) url(../../img/dec/bottom-right.svg) no-repeat bottom 160px right 40px;
    box-shadow: inset 0px 120px var(--w), inset 0px -120px var(--c12);
 }
 

@@ -33,7 +33,7 @@
 
 .orcamento-produto {
 	border-radius: 5px 0 0 5px;
-	background: var(--c12);
+	background: var(--c12) url(../../img/dec/bottom-left.svg) no-repeat bottom 40px left 40px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	align-content: start;
@@ -110,7 +110,7 @@
 
 .orcamento-dados {
 	border-radius: 0 5px 5px 0;
-	background: var(--w);
+	background: var(--w) url(../../img/dec/bottom-right.svg) no-repeat bottom 40px right 40px;
 }
 
 .orcamento-conteudo {
@@ -162,6 +162,11 @@
 	text-decoration: underline;
 }
 
+.orcamento-termos a:hover {
+	color: var(--p2);
+	transition: 0.1s;
+}
+
 .orcamento-termos input[type='checkbox'] {
 	width: 32px;
 	height: 32px;
@@ -208,6 +213,7 @@
 	}
 	.orcamento-produto {
 		border-radius: 5px 5px 0 0;
+		background: var(--c12);
 	}
 }
 

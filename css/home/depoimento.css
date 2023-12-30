@@ -1,7 +1,7 @@
 .depoimento {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: var(--p1);
+    background: var(--p1);
     overflow: hidden;
 }
 
@@ -15,14 +15,16 @@
 .depoimento-conteudo {
     padding: 40px 40px 80px 80px;
     align-self: end;
+    background: url(../../img/dec/bottom-right-p.svg) no-repeat bottom 40px right 40px;
 }
 
 .depoimento-conteudo p {
     font-family: "Merriweather", serif;
     font-style: italic;
     font-weight: 900;
+    font-size: 40px;
     margin-bottom: 32px;
-    max-width: 32ch;
+    max-width: 24ch;
     position: relative;
 }
 
@@ -40,6 +42,12 @@
 
 .depoimento p::after {
     content: "”";
+}
+
+@media(min-width: 1200px) {
+    .depoimento img {
+        max-height: 520px;
+    }
 }
 
 @media(max-width: 800px) {
